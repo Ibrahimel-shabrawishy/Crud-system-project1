@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="w-75 mx-auto my-5 ">
+
+        <div class="mb-3">
+            <label for="productName">Product Name :</label>
+            <input class="form-control" type="text" id="productName">
+        </div>
+
+        <div class="mb-3">
+            <label for="productPrice">Product Price :</label>
+            <input class="form-control" type="number" id="productPrice">
+        </div>
+
+
+        <div class="mb-3">
+            <label for="productCategory">Product Category :</label>
+            <input class="form-control" type="text" id="productCategory">
+        </div>
+
+        <div class="mb-3">
+            <label for="productDesc">Product Description :</label>
+            <textarea class="form-control" type="text" id="productDescription"></textarea>
+        </div>
+
+        <button id="addBtn" onclick="addProduct()" class="btn btn-outline-danger">Add Product</button>
+
+
+
+    </div>
+
+    <div class="w-75 mx-auto  ">
+        <input onkeyup="searchProduct(this.value)" id="searchInput" class="form-control mb-5" type="text" placeholder="Search............................">
+        <table class="table table-striped">
+            <thead>
+                <th> index</th>
+                <th>productName</th>
+                <th>productPrice</th>
+                <th>productCategory</th>
+                <th>productDescriptin</th>
+                <th>update</th>
+                <th>delete</th>
+            </thead>
+            <tbody id="tableBody">
+
+
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="js/about.js"></script>
+</body>
+
+</html>
