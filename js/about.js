@@ -62,7 +62,7 @@ function displayProduct() {
        </td>
    </tr>`;
     }
-    document.getElementById("tableBody").innerHTML = cortonaa;
+    document.getElementById("table-Body").innerHTML = cortonaa;
 }
 
 
