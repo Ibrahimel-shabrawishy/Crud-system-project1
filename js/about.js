@@ -55,10 +55,10 @@ function displayProduct() {
        <td>${addArr[i].category}</td>
        <td>${addArr[i].description}</td>
        <td>
-           <button onClick="updateProduct(${i})" class="btn btn-warning"> update</button>
+           <button onClick="updateProduct(${i})" class="btn btn-warning"> Update</button>
        </td>
        <td>
-           <button class="btn btn-danger"onClick="deleteProduct(${i})">delete</button>
+           <button class="btn btn-danger"onClick="deleteProduct(${i})">Delete</button>
        </td>
    </tr>`;
     }
