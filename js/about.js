@@ -32,7 +32,7 @@ function addProduct()
 
         clearForm();
     } else {
-        window.alert("All inputs requires")
+        window.alert("All Inputs Requires")
     }
 }
 
@@ -120,5 +120,5 @@ function updateProduct(index) {
     productPriceInput.value = addArr[index].price;
     productCategoryInput.value = addArr[index].category;
     productDescriptionInput.value = addArr[index].description;
-    document.getElementById("addBtn").innerHTML = "update product";
+    document.getElementById("addBtn").innerHTML = "Update Product";
 }
